@@ -52,7 +52,7 @@ namespace mokup1
             string a = txtName.Text;
             string b = txtSurname.Text;
             var Date = dpDate.SelectedDate.Value;
-            try
+            try 
             {
                 using (StreamWriter w = new StreamWriter(file_nome, true))
                 {
